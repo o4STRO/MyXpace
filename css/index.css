@@ -1,0 +1,85 @@
+@font-face{
+    font-family: "contrailOne";
+    src: url("../src/fonts/ContrailOne-Regular.ttf") format("truetype");
+}
+
+body{
+    background: #FFD62B;
+    font-family: 'contrailOne', Arial;
+    color: #040404;
+}
+
+#menu{
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    background: #45B0FF;
+
+    box-shadow: 8.5px 8.5px #242628;
+}
+
+#menu ul li{
+    font-size: 28px;
+    
+    padding: 2px 10px;
+    display: inline;
+    line-height: 45px;
+}
+
+#menu a{
+    color:#040404;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    transition: .2s ease;
+    font-size: 32px;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil #desc{
+    position: absolute;
+    text-align: end;
+
+    margin-top: 290px;
+    margin-left: -400px;
+}
+
+.perfil #nome{
+    position: absolute;
+    margin-top: 415px;
+    z-index: 2;
+    font-size: 29px;
+
+    text-align: center;
+    width: 210px;
+    height: 33px;
+    background: #45B0FF;
+    border-radius: 171.5px;
+
+    z-index: 1;
+}
+
+
+#fotoperfil img{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -130px;
+
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    transform: matrix(-1, 0.09, 0.09, 1, 0, 0);
+    border-radius: 50%;
+
+    border: 6px solid #242628;
+
+    z-index: 0;
+
+}
+

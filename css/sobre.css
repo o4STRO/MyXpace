@@ -1,0 +1,94 @@
+.sobre{
+    margin: 0 auto;
+
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height: 600px;
+
+}
+
+#titulo1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 650px;
+}
+
+#texto1{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.habilidades{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.habilidades #titulo2 {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.habilidades #titulo3{
+    margin-top: 30px
+}
+
+.habilidades #tecnicas{
+    margin-top: 30px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+.habilidades #tecnicas #nivel{
+}
+
+.habilidades #tecnicas tr td{
+    width: 50px;
+    padding: 3px 6px;
+
+    background-color: #45B0FF;
+
+    border-radius: 50%;
+    box-shadow: 3px 3px #242628;    
+}
+
+.habilidades #tecnicas tr td #svgbugado{
+    max-width: 33px;
+    max-height: 33px;
+    width: auto;
+    height: auto;
+    padding: 7px 9px;
+    padding-top: 9px;
+}
+
+.habilidades #tecnicas tr td:hover{
+    background-color: #242628;
+    box-shadow: 3px 3px #45B0FF;
+}
+
+.habilidades #naturais{
+    margin-top: 30px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+
+.habilidades #naturais tr td{
+    width: 50px;
+    padding: 3px 6px;
+
+    background-color: #45B0FF;
+
+    border-radius: 50%;
+    box-shadow: 3px 3px #242628;  
+}
+
+.habilidades #naturais tr td:hover{
+    background-color: #242628;
+    box-shadow: 3px 3px #45B0FF;
+}
